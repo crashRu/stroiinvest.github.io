@@ -1,0 +1,295 @@
+@font-face {
+  font-family: 'Proxima_bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima_reg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Proxima_reg', sans-serif;
+  color: #292929;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+.main {
+  background: #ffffff url(../img/bgimage.jpg) center center no-repeat;
+  background-size: cover;
+}
+.header {
+  margin-top: 2rem;
+  height: 7rem;
+}
+.header-number {
+  font-size: 2rem;
+  font-family: 'Proxima_bold', sans-serif;
+  text-decoration: none;
+  height: 7rem;
+  line-height: 7rem;
+  color: #292929;
+}
+.header-button {
+  width: 22rem;
+  height: 5rem;
+  border-radius: 1rem;
+  font-family: 'Proxima_reg', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  background-color: #feb403;
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.header-button:hover {
+  cursor: pointer;
+  background-color: #e7a301;
+}
+.header-payment {
+  font-size: 2.2rem;
+  margin-top: 2.7rem;
+  margin-bottom: 10.7rem;
+  font-family: 'Proxima_bold', sans-serif;
+}
+.header-text {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-family: 'Proxima_bold', sans-serif;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+.header-text-small {
+  font-size: 2.4rem;
+}
+.header-text-price {
+  display: inline-block;
+  background-color: #49bf15;
+  font-size: 1.8rem;
+  padding: 3rem 3.6rem 1rem;
+  margin-top: 4.5rem;
+  color: #ffffff;
+}
+.header-text-price span {
+  font-size: 3rem;
+  font-family: 'Proxima_bold', sans-serif;
+}
+.header-form {
+  background-color: #ffffff;
+  margin-top: 10rem;
+  padding: 4rem 5rem;
+  text-align: center;
+  height: 42rem;
+  width: 36rem;
+}
+.header-form-text {
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 4.3rem;
+}
+.header-form-text span {
+  font-weight: 700;
+}
+.header-form-input {
+  display: block;
+  margin: 2.5rem 0;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid #dddddd;
+  border-radius: 5%;
+}
+.header-form-label {
+  position: absolute;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #565656;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+.header-form-small-text {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 4.3rem;
+  font-family: 'Proxima_reg', sans-serif;
+}
+.header-form-btn {
+  width: 100%;
+  height: 6.5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.form-text-small {
+  font-size: 1.1rem;
+  margin: 3rem 3rem;
+  font-weight: 100;
+}
+.section {
+  padding: 10rem 0;
+}
+.section-header {
+  margin: 2rem 0 10;
+  font-family: 'Proxima_bold', sans-serif;
+  font-size: 3.6rem;
+  text-align: center;
+}
+.features {
+  margin-top: 10rem;
+}
+.features-block {
+  margin-top: 13rem;
+  text-align: center;
+}
+.features-img {
+  height: 6rem;
+}
+.features-img img {
+  display: block;
+  margin: 3rem auto;
+  height: 8rem;
+}
+.features p {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.4rem;
+  font-family: 'Proxima_reg', sans-serif;
+  margin-bottom: 50rem;
+}
+.features h3 {
+  margin: 6.4rem auto 3.5rem auto;
+  font-size: 2rem;
+  font-family: 'Proxima_bold', sans-serif;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  top: 31.4%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.prev {
+  right: 0;
+  background: url(../img/features/next-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+.next {
+  left: 0;
+  background: url(../img/features/prev-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+    height: 121rem;
+  }
+  .header-number {
+    text-align: center;
+  }
+  .main-title {
+    text-align: center;
+  }
+  .header-form {
+    margin-top: 0rem;
+  }
+  .form-text-small {
+    color: #e4e4e5;
+  }
+}
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+  position: fixed;
+  text-align: center;
+  padding: 3.5rem 5rem 5rem;
+  left: 50%;
+  top: 10%;
+  background-color: #ffffff;
+  transform: translateX(-50%);
+}
+.popup-close {
+  position: absolute;
+  top: -2.1rem;
+  right: -3.2rem;
+  background-color: transparent;
+  border: none;
+  font-size: 4rem;
+  font-family: 'Proxima_reg', sans-serif;
+  color: #ffffff;
+}
+.popup-header {
+  font-family: 'Proxima_reg', sans-serif;
+  font-size: 1.8rem;
+}
+.popup-header span {
+  display: block;
+  font-family: 'Proxima_bold', sans-serif;
+}
+.popup-form {
+  margin-top: 3.3rem;
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: top left;
+    height: 140rem;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-block {
+    text-align: center;
+  }
+  .form-text-small {
+    color: #292929;
+  }
+}
+@media (max-width: 100px) {
+  .main {
+    margin-left: 0;
+  }
+}
